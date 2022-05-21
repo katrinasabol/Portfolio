@@ -1,0 +1,153 @@
+body{
+  max-width: 100%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;500;600;700&display=swap');
+
+*{
+  font-family: 'RadioCanada', sans-serif;
+}
+
+/* menu bar */
+.home-button{
+  font-size: 200%;
+  position: relative;
+  margin-top: .2em;
+  font-family: 'RadioCanada', 'Verdana'
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.6) ;
+  text-align: center;
+  float: center;
+  radius: 10%;
+}
+
+ul li{
+  float: center;
+  display: inline-block;
+  padding-left: 5em;
+  padding-right: 5em;
+}
+
+li a  {
+  display: block;
+  color:#FFFFFF;
+  text-align: baseline;
+  padding:10px 10px 20px 10px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  color: pink;
+}
+
+/*large screen */
+@media only screen and (min-width: 768px){
+  ul li {
+    float: none;
+  }
+
+footer{
+  background-color: rgba(255,255,255,0.7);
+  max-width: 100%;
+  text-align: center;
+  padding-left: 1em;
+  padding-top:2px;
+  padding-bottom:2px;
+  margin-top:1.5em;
+  margin-bottom: .5em;
+  align-self: center;
+}
+}
+
+/* mid screen*/
+
+@media only screen and (max-width: 960px){
+  ul li {
+    float: none;
+  }
+
+footer{
+  background-color: rgba(255,255,255,0.7);
+  max-width: 100%;
+  text-align: left;
+  padding-left: 1em;
+  padding-top:2px;
+  padding-bottom:2px;
+  margin-top:1.5em;
+  margin-bottom: .5em;
+  align-self: center;
+}
+}
+
+
+/*mobile screen*/
+
+@media only screen and (max-width: 600px){
+  ul li {
+    float: none;
+  }
+
+footer{
+  background-color: rgba(255,255,255,0.7);
+  max-width: 100%;
+  text-align: left;
+  padding-left: 1em;
+  padding-top:2px;
+  padding-bottom:2px;
+  margin-top:1.5em;
+  margin-bottom: .5em;
+  align-self: center;
+}
+ul li{
+  float: center;
+  display: inline-block;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+}
+
+
+
+footer a{
+  text-decoration: underline;
+  color:black;
+}
+
+
+
+/* email button */
+.emailMe {
+  position: fixed;
+  text-align: center;
+  bottom: 0;
+  right: 0;
+  margin:10px;
+  width: 300px;
+  border: 3px dotted black;
+  background-color: rgba(255,255,255,0.75);
+}
+
+.emailMe a:link {
+  text-decoration: none;
+  color:black;
+}
+
+.emailMe a:visited {
+  text-decoration: none;
+  color:black;
+}
+
+.emailMe a:hover {
+  text-decoration: overline;
+  color: black;
+  }
+
+a:hover{
+  text-decoration: overline;
+}

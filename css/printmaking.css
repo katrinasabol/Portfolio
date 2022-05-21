@@ -1,0 +1,115 @@
+body{
+background-repeat:repeat;
+  background-image: url("../images/printmaking/purpleEye.jpg");
+  background-position: center;
+  background-size:40%;
+}
+
+li a{
+  color: #e696ec;
+}
+
+h3{
+  margin-top: 3%;
+  margin-bottom: 0%;
+  text-align: center;
+}
+
+p.imageDetails{
+  text-align: center;
+  margin-bottom:0%;
+}
+
+li a:hover:not(.active) {
+  color:#9e78db;
+}
+
+/* IMAGE HOVER*/
+img.landscape{
+  width: 100%;
+  filter:grayscale(100%);
+  transition: .5s ease;
+}
+
+img.landscape:hover{
+  filter:grayscale(0%);
+  transition: .5s ease;
+}
+
+img.portrait{
+  width:100%;
+  height:100%;
+  filter:grayscale(100%);
+  transition: .5s ease;
+}
+
+img.portrait:hover{
+  filter:grayscale(0%);
+  transition: .5s ease;
+}
+
+
+/*GRID*/
+.grid-container > div {
+  background-color: rgba(255,255,255,0.7);
+  padding: 20px;
+  font-size: 30px;
+  align-items: center;
+  max-width: 100%;
+  margin: 5%;
+}
+
+div.content{
+  font-size:1em;
+  justify-content: center;
+  align-content: center;
+}
+
+.mobileDescription{
+  text-align:center;
+}
+
+@media only screen and (min-width: 768px){
+  .grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items:center;
+    justify-content: center;
+  }
+  .mobileDescription{
+    display: none;
+
+}
+
+
+@media only screen and (max-width: 1440px){
+  .grid-container{
+    display: grid;
+    grid-template-columns:auto auto;
+    align-items:center;
+    justify-content: center;
+  }
+  .mobileDescription{
+    display: none;
+}
+}
+
+
+@media only screen and (max-width: 600px){
+  .grid-container{
+    display: grid;
+    grid-template-columns: auto;
+    align-items:center;
+    justify-content: center;
+  }
+
+  .mobileDescription{
+    display: block;
+    width: 60%;
+}
+
+  .mobileDescription h4{
+  font-size: 10px;
+  margin: auto;
+  }
+}

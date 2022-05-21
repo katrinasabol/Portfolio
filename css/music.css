@@ -1,0 +1,46 @@
+body{
+    background-repeat: repeat;
+  background-image: url("../images/music/tealOil.jpg");
+  background-size: 40%;
+  background-position: center;
+}
+
+li a{
+  color: #B9CBC2;
+}
+
+li a:hover:not(.active) {
+  color:#1CB0A2;
+}
+
+  div.textLink{
+    background-color: rgba(0,0,0,0.6);
+    max-width:60%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    border: 1px solid black;
+    font-size: 1.7em;
+  }
+
+.textLink a{
+  color:white;
+  text-decoration: none;
+}
+
+.textLink a:hover{
+  text-decoration: overline;
+}
+.textLink a:visited{
+ color:white;
+}
+
+
+div.embed{
+  font-size: 1em;
+  justify-content: center;
+  align-content: center;
+  max-width:70%;
+  margin: auto;
+}
