@@ -101,6 +101,13 @@ div.content{
     grid-template-columns: auto;
     align-items:center;
     justify-content: center;
+    
+  }
+  img.portrait{
+    filter: grayscale(0%);
+  }
+  img.landscape{
+    filter: grayscale(0%);
   }
 
   .mobileDescription{
@@ -112,4 +119,5 @@ div.content{
   font-size: 10px;
   margin: auto;
   }
+
 }

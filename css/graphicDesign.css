@@ -84,4 +84,10 @@ div.content{
     align-items:center;
     justify-content: center;
   }
+  img.portrait{
+    filter: grayscale(0%);
+  }
+  img.landscape{
+    filter: grayscale(0%);
+  }
 }
