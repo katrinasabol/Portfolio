@@ -59,6 +59,11 @@ div.content{
   align-content: center;
 }
 
+.mobileDescription{
+  text-align:center;
+
+}
+
 @media only screen and (min-width: 768px){
   .grid-container{
     display: grid;
@@ -66,6 +71,10 @@ div.content{
     align-items:center;
     justify-content: center;
   }
+  .mobileDescription{
+    display: none;
+}
+
 }
 
 @media only screen and (max-width: 1440px){
@@ -75,6 +84,10 @@ div.content{
     align-items:center;
     justify-content: center;
   }
+  .mobileDescription{
+    display: none;
+}
+
 }
 
 @media only screen and (max-width: 600px){
@@ -84,10 +97,14 @@ div.content{
     align-items:center;
     justify-content: center;
   }
-  img.portrait{
-    filter: grayscale(0%);
-  }
-  img.landscape{
-    filter: grayscale(0%);
+
+  .mobileDescription{
+    display: block;
+
+}
+
+  .mobileDescription h2{
+  font-size: 10px;
+  margin: auto;
   }
 }
