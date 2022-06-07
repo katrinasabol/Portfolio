@@ -114,12 +114,12 @@ div.content{
     justify-content: center;
 
   }
-  img.portrait{
+  /*img.portrait{
     filter: grayscale(0%);
   }
   img.landscape{
     filter: grayscale(0%);
-  }
+  }*/
 
   .mobileDescription{
     display: block;
